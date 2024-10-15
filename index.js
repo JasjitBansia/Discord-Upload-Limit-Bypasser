@@ -4,7 +4,7 @@ let catbox = new Catbox();
 let prompt = inquirer.createPromptModule();
 let uploaded = false;
 
-setTimeout(() => {}, 1000);
+setInterval(() => {}, 1000);
 async function acceptPath() {
   let path = await prompt({
     name: "path",
