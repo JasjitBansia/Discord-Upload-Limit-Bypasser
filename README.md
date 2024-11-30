@@ -1,6 +1,6 @@
 # Discord Upload Limit Bypasser (who the hell thinks 10 mb is enough)
 
-This script allows for video sizes upto 200 mb. In addition, it makes it possible to run AV1 encoded videos through the discord media player (second L by discord)
+This script allows for video sizes upto 200 mb using catbox host and 5 gb using fileditch host. In addition, it makes it possible to run AV1 encoded videos through the discord media player (second L by discord)
 
 Note: To use the fileditch host option, cURL needs to be installed
 
