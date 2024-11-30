@@ -12,5 +12,8 @@
   "dependencies": {
     "catbox.moe": "^1.0.2",
     "inquirer": "^11.1.0"
+  },
+  "devDependencies": {
+    "pkg": "^5.8.1"
   }
 }
