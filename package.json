@@ -11,6 +11,7 @@
   "description": "",
   "dependencies": {
     "catbox.moe": "^1.0.2",
+    "copy-paste": "^1.5.3",
     "inquirer": "^11.1.0"
   },
   "devDependencies": {
