@@ -5,9 +5,9 @@ setInterval(() => {}, 1000);
 async function main() {
   let validatedPath = await validatePath();
   console.log("Uploading...");
-  exec(`curl.exe -F 'file=@${validatedPath}' https://0x0.st`, (err, res) => {
+  exec(`curl -F 'file=@${validatedPath}' https://0x0.st`, (err, res) => {
     if (res.startsWith("https://0x0.st/")) {
-      let text = `[video](${res.trim()})`;
+      let text = `[video](https://embeds.video/${res.trim()})`;
       copyURL(text);
       console.log(`Here's your url (copied): ${text}`);
     } else {
